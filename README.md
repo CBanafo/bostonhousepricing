@@ -1,7 +1,7 @@
 # Boston House Pricing Prediction
 
-We perform a few wrangling on the dataset. We split it into training and testing purposes and scale the values using the StandardScaler. We create a LinearRegression model and train the model with a portion of the data. We perform a few EDA analysis to test the performance of our model.<br>
-We predict the house price using variables including crime rate in the location, the age of the building, distances to employment sectors and many others.
+We perform a few wrangling on the dataset. We split it into training and testing purposes and scale the values using the StandardScaler. We create a LinearRegression model and train and test the model with a portion of the data. We perform EDA analysis to test the performance of our model.<br>
+We predict house prices using variables including crime rate in the location, age of the building, distances to employment sectors and many others.
 
 ### Software and Tools Requirements
 
@@ -31,3 +31,6 @@ app = Flask(__name__)
 Deploy Application onto Heroku
 
 > Login to [Heroku](https://heroku.com) and create account
+
+At the the end of the project, we get a front end application where we
+input the necessary variables for predicting the price of the house.
