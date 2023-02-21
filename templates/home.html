@@ -1,3 +1,38 @@
-<h1>
-    Boston Project
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Prediction</title>
+</head>
+<body>
+    <div>
+        <h1>Predicting Boston House Price</h1>
+
+        <!-- Receiving inputs Into ML Module -->
+        <form action="{{url_for('predict')}}" method="post">
+            <input type="text" name="CRIM" placeholder="CRIM" required="required"/><br>
+            <input type="text" name="ZN" placeholder="ZN" required="required"/><br>
+            <input type="text" name="INDUS" placeholder="INDUS" required="required"/><br>
+            <input type="text" name="CHAS" placeholder="CHAS" required="required"/><br>
+            <input type="text" name="NOX" placeholder="NOX" required="required"/><br>
+            <input type="text" name="RM" placeholder="RM" required="required"/><br>
+            <input type="text" name="AGE" placeholder="AGE" required="required"/><br>
+            <input type="text" name="DIS" placeholder="DIS" required="required"/><br>
+            <input type="text" name="RAD" placeholder="RAD" required="required"/><br>
+            <input type="text" name="TAX" placeholder="TAX" required="required"/><br>
+            <input type="text" name="PTRATIO" placeholder="PTRATIO" required="required"/><br>
+            <input type="text" name="B" placeholder="B" required="required"/><br>
+            <input type="text" name="LSTAT" placeholder="LSTAT" required="required"/><br>
+
+            <br>
+            <button type="submit" class="btn btn-primary btn-large btn-block">Predict</button>
+
+        </form>
+
+    </div>
+
+    {{independent_variables}}
+</body>
+</html>
