@@ -34,3 +34,6 @@ Deploy Application onto Heroku
 
 At the the end of the project, we get a front end application where we
 input the necessary variables for predicting the price of the house.
+<br>
+
+![Image](Capture.JPG?)
