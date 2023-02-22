@@ -1,4 +1,4 @@
-# Boston House Pricing Prediction
+# House Pricing Prediction
 
 We perform a few wrangling on the dataset. We split it into training and testing purposes and scale the values using the StandardScaler. We create a LinearRegression model and train and test the model with a portion of the data. We perform EDA analysis to test the performance of our model.<br>
 We predict house prices using variables including crime rate in the location, age of the building, distances to employment sectors and many others.
